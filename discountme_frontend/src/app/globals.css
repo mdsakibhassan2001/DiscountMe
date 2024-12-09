@@ -6,8 +6,10 @@
   /* --logo-color: #E34E25; */
   --logo-color: #ee2349;
   /* --logo-color: #FB6068; */
-  --theme: #662483;
+  --theme: #FF7D29;
+  --primary:#00B047;
   --blue: #007bff;
+  --text-color:#1d242d;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -19,15 +21,15 @@
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #ffffff;
-  --gray: #6c757d;
+  --gray: #666666;
   --light-gray: #d4d0d0;
   --light: #f8f9fa;
-  --dark: #353332;
+  --dark: #334A55;
   --light-dark: #58595b;
   --black: #000000;
   --modal-bg: #00000090;
   --modal-radious: 8px;
-  --border-color: #cecece;
+  --border-color: #e6e6e6;
 }
 
 * {
@@ -39,3 +41,33 @@ body {
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   -webkit-text-size-adjust: 100%;
 }
+button{
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+ }
+ .slick-prev {
+   left: 30px !important;
+   top:50%;
+   z-index: 1;
+  
+ }
+ .slick-prev::before{
+   color: var(--theme) !important;
+   font-size: 2rem !important;
+ }
+ .slick-next::before{
+   color: var(--theme) !important;
+   font-size: 2rem !important;
+ }
+ .slick-next{
+   right: 40px !important;
+   z-index: 1 ;
+   top: 48%;
+ }
+ 
+ .slider-container .slick-slide {
+   padding: 0 10px !important; 
+ }
+ 
