@@ -46,7 +46,7 @@ export default function Menu() {
         </div>
         <div className="flex gap-[29.54px] justify-start items-center">
           <Link href=""><FaRegHeart className="w-[25.85px] h-[25.85px]" /></Link>
-          <button><FiShoppingCart className="w-[25.85px] h-[25.85px]"/></button>
+          <Link href="cart"><FiShoppingCart className="w-[25.85px] h-[25.85px]"/></Link>
           <Link href="login"><RiUserLine className="w-[25.85px] h-[25.85px]"/></Link>
         </div>
       </div>

@@ -41,11 +41,11 @@ export default function CategorieDetails() {
                     <div className="mb-[13.818px] flex items-center gap-[9.21px]"><h3 className="text-[var(----gray-900)] text-5xl font-semibold font-['Figtree'] leading-[67.20px]">Smart Freezer</h3> <span className="px-[9.21px] py-[4.61px] bg-[#fdeee9] rounded text-[var(--theme)] text-base font-normal font-['Poppins'] leading-normal">In Stock</span></div>
                     <div className="flex items-center gap-3">
                     <div className="flex gap">
-                    <IoMdStar className="text-3xl text-[var(--theme)]" />
-                    <IoMdStar className="text-3xl text-[var(--theme)]" />
-                    <IoMdStar className="text-3xl text-[var(--theme)]" />
-                    <IoMdStar className="text-3xl text-[var(--theme)]" />
-                    <IoMdStar className="text-3xl text-[var(--theme)]" />
+                    <IoMdStar className="text-2xl text-[var(--theme)]" />
+                    <IoMdStar className="text-2xl text-[var(--theme)]" />
+                    <IoMdStar className="text-2xl text-[var(--theme)]" />
+                    <IoMdStar className="text-2xl text-[var(--theme)]" />
+                    <IoMdStar className="text-2xl text-[var(--theme)]" />
                     </div>
                     <span className="flex gap-2 justify-center items-center font-normal font-['Poppins'] leading-normal text-[16.121px] text-[var(--gray)]">
                     4 Review  <span className="font-[500] text-[16px] text-[#b3b3b3]  leading-normal"><PiDotOutlineFill /></span>
@@ -63,7 +63,26 @@ export default function CategorieDetails() {
                   </div>
                 </div>
             </div>
+            <div className="py-[50px] w-[70%] flex flex-col gap-[27.763px;]">
+            <h3 className="text-[#232323] text-[40px] font-bold font-['Figtree'] leading-[44px] ">Customer Feedback</h3>
+            <div className="flex flex-col gap-[16.658px] pb-[27.768px] border-b border-b-[#e6e6e6]">
+                <div className="flex justify-between">
+                    <div className="flex gap-[16px] items-center"><div className="w-[56.91px] h-[56.91px] relative aspect-[57/58]"><Image alt='customar' fill className="h-full w-full" src="/assets/customar/customar1.png"/></div><div><span>Kristin Watson</span><div className="flex gap">
+                        <IoMdStar className="text-2xl text-[var(--theme)]" />
+                        <IoMdStar className="text-2xl text-[var(--theme)]" />
+                        <IoMdStar className="text-2xl text-[var(--theme)]" />
+                        <IoMdStar className="text-2xl text-[var(--theme)]" />
+                        <IoMdStar className="text-2xl text-[var(--theme)]" />
+                        </div></div></div>
+                    <div><span className="text-[#999999] text-xl font-normal font-['Poppins'] leading-[29.15px]">2 min ago</span></div>
+                </div>
+                <p className="text-[#808080] text-xl font-normal font-['Poppins'] leading-[29.15px]">Duis at ullamcorper nulla, eu dictum eros.</p>
+            </div>
+           
         </div>
+        </div>
+
+     
     </div>
   
   )
