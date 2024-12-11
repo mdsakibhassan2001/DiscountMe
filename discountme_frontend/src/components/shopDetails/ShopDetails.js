@@ -47,12 +47,12 @@ export default function ShopDetails() {
         />
       </div>
 
-      <h2 className="text-[40px] mb-10 py-4 font-[500] border-b border-b-[var(--gray)]">
+      <h2 className="md:text-[40px] text-[24px] mb-10 py-4 font-[500] border-b border-b-[var(--gray)]">
         <span className="text-[var(--primary)]">Villagio</span> Restaurant & Bar
       </h2>
-      <div className="grid grid-cols-2">
-        <div className="flex flex-col gap-[20px]">
-          <div className="flex items-center gap-[18.11px]">
+      <div className="grid md:grid-cols-2">
+        <div className="flex flex-col md:gap-[20px] gap-[10px]">
+          <div className="flex items-center mg:gap-[18.11px] gap-[10px]">
             <MdLocationPin className="text-[var(--primary)] w-[36.23px] h-[36.23px]" />
             <p className="text-2xl text-[#334a55] flex flex-col font-['Kumbh Sans']">
               <span>360 San Lorenzo Avenue, Suite</span>
