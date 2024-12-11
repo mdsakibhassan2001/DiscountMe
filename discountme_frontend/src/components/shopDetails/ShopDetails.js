@@ -38,15 +38,15 @@ export default function ShopDetails() {
             />
           </div>
         </Slider>
-          <Image
-            className="p-[12px] pb-[16px]"
-            alt="slider"
-            src="assets/shop_slider/Rectangle.png"
-            fill
-            priority
-          /> 
+        <Image
+          className="p-[12px] pb-[16px]"
+          alt="slider"
+          src="/assets/shop_slider/Rectangle.png"
+          fill
+          priority
+        />
       </div>
-   
+
       <h2 className="text-[40px] mb-10 py-4 font-[500] border-b border-b-[var(--gray)]">
         <span className="text-[var(--primary)]">Villagio</span> Restaurant & Bar
       </h2>
@@ -74,16 +74,19 @@ export default function ShopDetails() {
         </div>
         <div className="flex gap-5 items-start">
           <div className="mt-2">
-             <FaBars className="w-[30.19px] h-[30.19px] text-[var(--primary)]" />
+            <FaBars className="w-[30.19px] h-[30.19px] text-[var(--primary)]" />
           </div>
-         
+
           <p className="text-[var(--dark)] text-xl text-justify">
             Villagio restaurant and bar has one mission: to provide guests with
             a fine and fresh seafood experience. Featuring seasonal and
             sustainable seafood that is flown in fresh daily, our chef-driven
             menu proves that no matter when you’re dining, seafood can be truly
             exceptional. to provide guests with a fine
-            <Link className="font-bold" href=""> Read More...</Link>
+            <Link className="font-bold" href="">
+              {" "}
+              Read More...
+            </Link>
           </p>
         </div>
       </div>
