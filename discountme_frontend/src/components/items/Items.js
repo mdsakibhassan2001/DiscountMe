@@ -111,7 +111,7 @@ export default function Items() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3 py-4 gap-[21.19px] ">
+      <div className="grid md:grid-cols-3  py-4 gap-[21.19px] ">
         <Link href="categorie" className="shadow-custom rounded-[14.54px]">
           <div className="relative aspect-[493/223] ">
             <Image
@@ -122,15 +122,199 @@ export default function Items() {
             />
           </div>
           <div className="flex items-center justify-between p-4">
-            <div className="flex flex-col gap-[7.27px] p-4">
-              <span className="text-[32.71px] font-semibold font-['Urbanist'] leading-[45.79px] text-[var( --text-color)]">
+            <div className="flex flex-col md:gap-[7.27px] gap-[4px] md:p-4 p-2">
+              <span className="md:text-[32.71px] text-[24px] font-semibold font-['Urbanist'] leading-[45.79px] text-[var( --text-color)]">
                 Long Sleeve T-Shirt
               </span>
-              <small className="text-[21.81px] font-normal font-['Urbanist'] text-[#494c61]">
+              <small className="md:text-[21.81px] text-[16px] font-normal font-['Urbanist'] text-[#494c61]">
                 Delicouse tackos, appetizing...
               </small>
             </div>
-            <span className=" text-4xl font-bold font-['Urbanist'] leading-[43.61px]">
+            <span className=" md:text-4xl text-2xl font-bold font-['Urbanist'] leading-[43.61px]">
+              $45.5
+            </span>
+          </div>
+        </Link>
+        <Link href="categorie" className="shadow-custom rounded-[14.54px]">
+          <div className="relative aspect-[493/223] ">
+            <Image
+              alt="image"
+              className="h-full w-full"
+              fill
+              src="/assets/items/item1.png"
+            />
+          </div>
+          <div className="flex items-center justify-between p-4">
+            <div className="flex flex-col md:gap-[7.27px] gap-[4px] md:p-4 p-2">
+              <span className="md:text-[32.71px] text-[24px] font-semibold font-['Urbanist'] leading-[45.79px] text-[var( --text-color)]">
+                Long Sleeve T-Shirt
+              </span>
+              <small className="md:text-[21.81px] text-[16px] font-normal font-['Urbanist'] text-[#494c61]">
+                Delicouse tackos, appetizing...
+              </small>
+            </div>
+            <span className=" md:text-4xl text-2xl font-bold font-['Urbanist'] leading-[43.61px]">
+              $45.5
+            </span>
+          </div>
+        </Link>
+        <Link href="categorie" className="shadow-custom rounded-[14.54px]">
+          <div className="relative aspect-[493/223] ">
+            <Image
+              alt="image"
+              className="h-full w-full"
+              fill
+              src="/assets/items/item1.png"
+            />
+          </div>
+          <div className="flex items-center justify-between p-4">
+            <div className="flex flex-col md:gap-[7.27px] gap-[4px] md:p-4 p-2">
+              <span className="md:text-[32.71px] text-[24px] font-semibold font-['Urbanist'] leading-[45.79px] text-[var( --text-color)]">
+                Long Sleeve T-Shirt
+              </span>
+              <small className="md:text-[21.81px] text-[16px] font-normal font-['Urbanist'] text-[#494c61]">
+                Delicouse tackos, appetizing...
+              </small>
+            </div>
+            <span className=" md:text-4xl text-2xl font-bold font-['Urbanist'] leading-[43.61px]">
+              $45.5
+            </span>
+          </div>
+        </Link>
+        <Link href="categorie" className="shadow-custom rounded-[14.54px]">
+          <div className="relative aspect-[493/223] ">
+            <Image
+              alt="image"
+              className="h-full w-full"
+              fill
+              src="/assets/items/item1.png"
+            />
+          </div>
+          <div className="flex items-center justify-between p-4">
+            <div className="flex flex-col md:gap-[7.27px] gap-[4px] md:p-4 p-2">
+              <span className="md:text-[32.71px] text-[24px] font-semibold font-['Urbanist'] leading-[45.79px] text-[var( --text-color)]">
+                Long Sleeve T-Shirt
+              </span>
+              <small className="md:text-[21.81px] text-[16px] font-normal font-['Urbanist'] text-[#494c61]">
+                Delicouse tackos, appetizing...
+              </small>
+            </div>
+            <span className=" md:text-4xl text-2xl font-bold font-['Urbanist'] leading-[43.61px]">
+              $45.5
+            </span>
+          </div>
+        </Link>
+        <Link href="categorie" className="shadow-custom rounded-[14.54px]">
+          <div className="relative aspect-[493/223] ">
+            <Image
+              alt="image"
+              className="h-full w-full"
+              fill
+              src="/assets/items/item1.png"
+            />
+          </div>
+          <div className="flex items-center justify-between p-4">
+            <div className="flex flex-col md:gap-[7.27px] gap-[4px] md:p-4 p-2">
+              <span className="md:text-[32.71px] text-[24px] font-semibold font-['Urbanist'] leading-[45.79px] text-[var( --text-color)]">
+                Long Sleeve T-Shirt
+              </span>
+              <small className="md:text-[21.81px] text-[16px] font-normal font-['Urbanist'] text-[#494c61]">
+                Delicouse tackos, appetizing...
+              </small>
+            </div>
+            <span className=" md:text-4xl text-2xl font-bold font-['Urbanist'] leading-[43.61px]">
+              $45.5
+            </span>
+          </div>
+        </Link>
+        <Link href="categorie" className="shadow-custom rounded-[14.54px]">
+          <div className="relative aspect-[493/223] ">
+            <Image
+              alt="image"
+              className="h-full w-full"
+              fill
+              src="/assets/items/item1.png"
+            />
+          </div>
+          <div className="flex items-center justify-between p-4">
+            <div className="flex flex-col md:gap-[7.27px] gap-[4px] md:p-4 p-2">
+              <span className="md:text-[32.71px] text-[24px] font-semibold font-['Urbanist'] leading-[45.79px] text-[var( --text-color)]">
+                Long Sleeve T-Shirt
+              </span>
+              <small className="md:text-[21.81px] text-[16px] font-normal font-['Urbanist'] text-[#494c61]">
+                Delicouse tackos, appetizing...
+              </small>
+            </div>
+            <span className=" md:text-4xl text-2xl font-bold font-['Urbanist'] leading-[43.61px]">
+              $45.5
+            </span>
+          </div>
+        </Link>
+        <Link href="categorie" className="shadow-custom rounded-[14.54px]">
+          <div className="relative aspect-[493/223] ">
+            <Image
+              alt="image"
+              className="h-full w-full"
+              fill
+              src="/assets/items/item1.png"
+            />
+          </div>
+          <div className="flex items-center justify-between p-4">
+            <div className="flex flex-col md:gap-[7.27px] gap-[4px] md:p-4 p-2">
+              <span className="md:text-[32.71px] text-[24px] font-semibold font-['Urbanist'] leading-[45.79px] text-[var( --text-color)]">
+                Long Sleeve T-Shirt
+              </span>
+              <small className="md:text-[21.81px] text-[16px] font-normal font-['Urbanist'] text-[#494c61]">
+                Delicouse tackos, appetizing...
+              </small>
+            </div>
+            <span className=" md:text-4xl text-2xl font-bold font-['Urbanist'] leading-[43.61px]">
+              $45.5
+            </span>
+          </div>
+        </Link>
+        <Link href="categorie" className="shadow-custom rounded-[14.54px]">
+          <div className="relative aspect-[493/223] ">
+            <Image
+              alt="image"
+              className="h-full w-full"
+              fill
+              src="/assets/items/item1.png"
+            />
+          </div>
+          <div className="flex items-center justify-between p-4">
+            <div className="flex flex-col md:gap-[7.27px] gap-[4px] md:p-4 p-2">
+              <span className="md:text-[32.71px] text-[24px] font-semibold font-['Urbanist'] leading-[45.79px] text-[var( --text-color)]">
+                Long Sleeve T-Shirt
+              </span>
+              <small className="md:text-[21.81px] text-[16px] font-normal font-['Urbanist'] text-[#494c61]">
+                Delicouse tackos, appetizing...
+              </small>
+            </div>
+            <span className=" md:text-4xl text-2xl font-bold font-['Urbanist'] leading-[43.61px]">
+              $45.5
+            </span>
+          </div>
+        </Link>
+        <Link href="categorie" className="shadow-custom rounded-[14.54px]">
+          <div className="relative aspect-[493/223] ">
+            <Image
+              alt="image"
+              className="h-full w-full"
+              fill
+              src="/assets/items/item1.png"
+            />
+          </div>
+          <div className="flex items-center justify-between p-4">
+            <div className="flex flex-col md:gap-[7.27px] gap-[4px] md:p-4 p-2">
+              <span className="md:text-[32.71px] text-[24px] font-semibold font-['Urbanist'] leading-[45.79px] text-[var( --text-color)]">
+                Long Sleeve T-Shirt
+              </span>
+              <small className="md:text-[21.81px] text-[16px] font-normal font-['Urbanist'] text-[#494c61]">
+                Delicouse tackos, appetizing...
+              </small>
+            </div>
+            <span className=" md:text-4xl text-2xl font-bold font-['Urbanist'] leading-[43.61px]">
               $45.5
             </span>
           </div>
