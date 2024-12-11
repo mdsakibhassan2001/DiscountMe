@@ -21,13 +21,13 @@ export default function CategorieDetails() {
         />
       </div>
       <div className="max-w-[1512px] w-[90%] mx-auto py-8 ">
-        <div className="grid grid-cols-2 gap-[28px]">
-          <div className="grid grid-cols-7 ">
-            <div className=" flex flex-col justify-between  h-auto mr-4 gap-[32px]">
+        <div className="grid lg:grid-cols-2 lg:gap-[28px]">
+          <div className="grid lg:grid-cols-7 ">
+            <div className=" flex lg:flex-col justify-between  h-auto mr-4 lg:gap-[32px]">
               <button className="flex items-center justify-center text-xl text-[var(--gray)] ">
                 <SlArrowUp />
               </button>
-              <div className="flex flex-col gap-[13.8px]">
+              <div className="flex lg:flex-col gap-[13.8px]">
                 <div className=" border border-[var(--primary)] rounded-[4px] p-[4px] relative aspect-[93/104]">
                   <Image
                     alt="login"
@@ -68,8 +68,8 @@ export default function CategorieDetails() {
             </div>
           </div>
           <div>
-            <div className="mb-[13.818px] flex items-center gap-[9.21px]">
-              <h3 className="text-[var(----gray-900)] text-5xl font-semibold font-['Figtree'] leading-[67.20px]">
+            <div className="lg:mb-[13.818px] flex items-center gap-[9.21px]">
+              <h3 className="text-[var(----gray-900)] lg:text-5xl text-2xl font-semibold font-['Figtree'] leading-[67.20px]">
                 Smart Freezer
               </h3>{" "}
               <span className="px-[9.21px] py-[4.61px] bg-[#fdeee9] rounded text-[var(--theme)] text-base font-normal font-['Poppins'] leading-normal">
@@ -78,23 +78,23 @@ export default function CategorieDetails() {
             </div>
             <div className="flex items-center gap-3">
               <div className="flex gap">
-                <IoMdStar className="text-2xl text-[var(--theme)]" />
-                <IoMdStar className="text-2xl text-[var(--theme)]" />
-                <IoMdStar className="text-2xl text-[var(--theme)]" />
-                <IoMdStar className="text-2xl text-[var(--theme)]" />
-                <IoMdStar className="text-2xl text-[var(--theme)]" />
+                <IoMdStar className="lg:text-2xl text-xl text-[var(--theme)]" />
+                <IoMdStar className="lg:text-2xl text-xl text-[var(--theme)]" />
+                <IoMdStar className="lg:text-2xl text-xl text-[var(--theme)]" />
+                <IoMdStar className="lg:text-2xl text-xl text-[var(--theme)]" />
+                <IoMdStar className="lg:text-2xl text-xl text-[var(--theme)]" />
               </div>
-              <span className="flex gap-2 justify-center items-center font-normal font-['Poppins'] leading-normal text-[16.121px] text-[var(--gray)]">
+              <span className="flex gap-2 justify-center items-center font-normal font-['Poppins'] leading-normal lg:text-[16.121px] text-[15px] text-[var(--gray)]">
                 4 Review{" "}
                 <span className="font-[500] text-[16px] text-[#b3b3b3]  leading-normal">
                   <PiDotOutlineFill />
                 </span>
               </span>
             </div>
-            <div className=" mt-[11px] text-[var(--theme)] text-[27.64px] font-medium font-['Poppins'] leading-[41.45px]">
+            <div className=" mt-[11px] text-[var(--theme)] lg:text-[27.64px] text-[22px] font-medium font-['Poppins'] leading-[41.45px]">
               $17.28
             </div>
-            <div className="flex border-t flex-col mt-[27.64px] pt-[27.64px] gap-[27.64px]">
+            <div className="flex border-t flex-col lg:mt-[27.64px] mt-[10px] lg:pt-[27.64px] pt-[10px] lg:gap-[27.64px] gap-[10px]">
               <div className="text-[var(----gray-900)] text-base font-medium font-['Poppins'] leading-normal">
                 Category:{" "}
                 <spna className="text-[#808080] text-base font-normal font-['Poppins'] leading-normal">
@@ -107,7 +107,7 @@ export default function CategorieDetails() {
                 consequat nec, ultrices et ipsum. Nulla varius magna a consequat
                 pulvinar.{" "}
               </p>
-              <div className="grid grid-cols-8 gap-[13.818px]">
+              <div className="grid lg:grid-cols-8 gap-[13.818px]">
                 <div className="col-span-2 flex justify-between p-[9.212px] bg-white rounded-[195.76px] border border-[#e6e6e6]justify-center items-center">
                   <button className="bg-[#f2f2f2] rounded-[195.76px] h-[40px] w-[40px] flex items-center justify-center">
                     <FiMinus className="text-2xl text-[var(--gray)]" />
@@ -121,21 +121,21 @@ export default function CategorieDetails() {
                 </div>
                 <Link
                   href="cart"
-                  className="col-span-5 px-[46.06px] py-[18.42px] bg-[var(--theme)] rounded-[49.52px] flex items-center justify-center items-center gap-[18.42px] text-white text-lg font-semibold font-['Poppins'] leading-snug "
+                  className="order-1 col-span-5 px-[46.06px] py-[18.42px] bg-[var(--theme)] rounded-[49.52px] flex items-center justify-center items-center gap-[18.42px] text-white text-lg font-semibold font-['Poppins'] leading-snug "
                 >
                   {" "}
                   Checkout{" "}
                   <HiOutlineShoppingBag className="text-white text-2xl" />{" "}
                 </Link>
-                <button className="w-[59px] h-[59px] flex justify-center items-center  bg-[#dfe1e3] rounded-full">
+                <button className="xl:order-1 w-[59px] h-[59px] flex justify-center items-center  bg-[#dfe1e3] rounded-full">
                   <FiShoppingCart className="text-2xl" />
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div className="py-[50px] w-[70%] flex flex-col gap-[27.763px;]">
-          <h3 className="text-[#232323] text-[40px] font-bold font-['Figtree'] leading-[44px] ">
+        <div className="py-[20px] lg:w-[70%] flex flex-col gap-[27.763px;]">
+          <h3 className="text-[#232323]  xl:text-[40px] text-[24px] font-bold font-['Figtree'] leading-[44px] ">
             Customer Feedback
           </h3>
           <div className="flex flex-col gap-[16.658px] pb-[27.768px] border-b border-b-[#e6e6e6]">
