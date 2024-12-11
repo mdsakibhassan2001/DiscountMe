@@ -8,6 +8,7 @@ import { HiOutlinePlus } from "react-icons/hi";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { FiMinus } from "react-icons/fi";
 import { FiShoppingCart } from "react-icons/fi";
+import Link from 'next/link';
 export default function CategorieDetails() {
   return (
     <div>
@@ -57,7 +58,7 @@ export default function CategorieDetails() {
                     <p className="text-[#808080] text-base font-normal font-['Poppins'] leading-normal">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nibh diam, blandit vel consequat nec, ultrices et ipsum. Nulla varius magna a consequat pulvinar. </p>
                     <div className="grid grid-cols-8 gap-[13.818px]">
                         <div className="col-span-2 flex justify-between p-[9.212px] bg-white rounded-[195.76px] border border-[#e6e6e6]justify-center items-center"><button className="bg-[#f2f2f2] rounded-[195.76px] h-[40px] w-[40px] flex items-center justify-center"><FiMinus className='text-2xl text-[var(--gray)]'/></button><span className=" text-center text-[var(---gray-900)] text-lg font-normal font-['Poppins'] leading-7">5</span><button  className=" bg-[#f2f2f2] rounded-[195.76px]  h-[40px] w-[40px] flex items-center justify-center"><HiOutlinePlus className='text-2xl text-[var(--gray)]' /></button></div>
-                        <button className="col-span-5 px-[46.06px] py-[18.42px] bg-[var(--theme)] rounded-[49.52px] flex items-center justify-center items-center gap-[18.42px] text-white text-lg font-semibold font-['Poppins'] leading-snug ">  Checkout  <HiOutlineShoppingBag className="text-white text-2xl" /> </button>
+                        <Link href="cart" className="col-span-5 px-[46.06px] py-[18.42px] bg-[var(--theme)] rounded-[49.52px] flex items-center justify-center items-center gap-[18.42px] text-white text-lg font-semibold font-['Poppins'] leading-snug ">  Checkout  <HiOutlineShoppingBag className="text-white text-2xl" /> </Link>
                         <button className="w-[59px] h-[59px] flex justify-center items-center  bg-[#dfe1e3] rounded-full"><FiShoppingCart className="text-2xl"/></button>
                     </div>
                   </div>
