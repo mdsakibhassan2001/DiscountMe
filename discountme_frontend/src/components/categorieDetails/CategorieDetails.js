@@ -21,14 +21,14 @@ export default function CategorieDetails() {
         />
       </div>
       <div className="max-w-[1512px] w-[90%] mx-auto py-8 ">
-        <div className=" grid lg:grid-cols-2 lg:gap-[28px] ">
-          <div className="lg:grid grid-cols-7">
-            <div className="order-1  flex  lg:flex-col justify-between  h-auto lg:mr-4 gap-[32px]">
+        <div className="grid lg:grid-cols-2 gap-[28px]">
+          <div className="lg:grid grid-cols-7 ">
+            <div className=" flex lg:flex-col justify-between  h-auto mr-4 gap-[32px]">
               <button className="flex items-center justify-center text-xl text-[var(--gray)] ">
                 <SlArrowUp />
               </button>
               <div className="flex lg:flex-col gap-[13.8px]">
-                <div className=" border border-[var(--primary)] rounded-[4px] p-[4px] relative  aspect-[93/104] lg:h-full lg:w-full  w-[60px] h-[60px] ">
+                <div className=" border border-[var(--primary)] rounded-[4px] p-[4px] relative  aspect-[93/104] lg:h-full lg:w-full  w-[50px] h-[60px] ">
                   <Image
                     alt="login"
                     className="rounded-[4px] h-full w-full"
@@ -36,7 +36,7 @@ export default function CategorieDetails() {
                     src="/assets/categorie_small/categorie_small_image.png "
                   />
                 </div>
-                <div className="relative aspect-[93/104] lg:h-full lg:w-full  w-[60px] h-[60px]">
+                <div className="relative aspect-[93/104]">
                   <Image
                     alt="login"
                     className="rounded-[4px] h-full w-full"
@@ -44,7 +44,7 @@ export default function CategorieDetails() {
                     src="/assets/categorie_small/categorie_small_image.png "
                   />
                 </div>
-                <div className="relative aspect-[93/104] lg:h-full lg:w-full  w-[60px] h-[60px]">
+                <div className="relative aspect-[93/104]">
                   <Image
                     alt="login"
                     className="rounded-[4px] h-full w-full"
@@ -58,7 +58,7 @@ export default function CategorieDetails() {
                 <SlArrowDown />
               </button>
             </div>
-            <div className="lg:order-1 col-span-6 relative flex  aspect-[641/453]">
+            <div className="col-span-6 relative flex  aspect-[641/453]">
               <Image
                 alt="login"
                 className="h-full w-full"
@@ -68,8 +68,8 @@ export default function CategorieDetails() {
             </div>
           </div>
           <div>
-            <div className="lg:mb-[13.818px] flex items-center gap-[9.21px]">
-              <h3 className="text-[var(----gray-900)] lx:text-5xl text-2xl font-semibold font-['Figtree'] leading-[67.20px]">
+            <div className="mb-[13.818px] flex items-center gap-[9.21px]">
+              <h3 className="text-[var(----gray-900)] text-5xl font-semibold font-['Figtree'] leading-[67.20px]">
                 Smart Freezer
               </h3>{" "}
               <span className="px-[9.21px] py-[4.61px] bg-[#fdeee9] rounded text-[var(--theme)] text-base font-normal font-['Poppins'] leading-normal">
@@ -78,20 +78,20 @@ export default function CategorieDetails() {
             </div>
             <div className="flex items-center gap-3">
               <div className="flex gap">
-                <IoMdStar className="lg:text-2xl text-xl text-[var(--theme)]" />
-                <IoMdStar className="lg:text-2xl text-xl text-[var(--theme)]" />
-                <IoMdStar className="lg:text-2xl text-xl text-[var(--theme)]" />
-                <IoMdStar className="lg:text-2xl text-xl text-[var(--theme)]" />
-                <IoMdStar className="lg:text-2xl text-xl text-[var(--theme)]" />
+                <IoMdStar className="text-2xl text-[var(--theme)]" />
+                <IoMdStar className="text-2xl text-[var(--theme)]" />
+                <IoMdStar className="text-2xl text-[var(--theme)]" />
+                <IoMdStar className="text-2xl text-[var(--theme)]" />
+                <IoMdStar className="text-2xl text-[var(--theme)]" />
               </div>
-              <span className="flex gap-2 justify-center items-center font-normal font-['Poppins'] leading-normal lg:text-[16.121px] text-[14px] text-[var(--gray)]">
+              <span className="flex gap-2 justify-center items-center font-normal font-['Poppins'] leading-normal text-[16.121px] text-[var(--gray)]">
                 4 Review{" "}
                 <span className="font-[500] text-[16px] text-[#b3b3b3]  leading-normal">
                   <PiDotOutlineFill />
                 </span>
               </span>
             </div>
-            <div className=" mt-[11px] text-[var(--theme)] lg:text-[27.64px] text-[22px] font-medium font-['Poppins'] leading-[41.45px]">
+            <div className=" mt-[11px] text-[var(--theme)] text-[27.64px] font-medium font-['Poppins'] leading-[41.45px]">
               $17.28
             </div>
             <div className="flex border-t flex-col mt-[27.64px] pt-[27.64px] gap-[27.64px]">
@@ -107,7 +107,7 @@ export default function CategorieDetails() {
                 consequat nec, ultrices et ipsum. Nulla varius magna a consequat
                 pulvinar.{" "}
               </p>
-              <div className="grid lg:grid-cols-8 gap-[13.818px]">
+              <div className="grid grid-cols-8 gap-[13.818px]">
                 <div className="col-span-2 flex justify-between p-[9.212px] bg-white rounded-[195.76px] border border-[#e6e6e6]justify-center items-center">
                   <button className="bg-[#f2f2f2] rounded-[195.76px] h-[40px] w-[40px] flex items-center justify-center">
                     <FiMinus className="text-2xl text-[var(--gray)]" />
@@ -121,13 +121,13 @@ export default function CategorieDetails() {
                 </div>
                 <Link
                   href="cart"
-                  className="order-1 col-span-5 px-[46.06px] py-[18.42px] bg-[var(--theme)] rounded-[49.52px] flex items-center justify-center items-center gap-[18.42px] text-white text-lg font-semibold font-['Poppins'] leading-snug "
+                  className="col-span-5 px-[46.06px] py-[18.42px] bg-[var(--theme)] rounded-[49.52px] flex items-center justify-center items-center gap-[18.42px] text-white text-lg font-semibold font-['Poppins'] leading-snug "
                 >
                   {" "}
                   Checkout{" "}
                   <HiOutlineShoppingBag className="text-white text-2xl" />{" "}
                 </Link>
-                <button className="lg:order-1 w-[59px] h-[59px] flex justify-center items-center  bg-[#dfe1e3] rounded-full">
+                <button className="w-[59px] h-[59px] flex justify-center items-center  bg-[#dfe1e3] rounded-full">
                   <FiShoppingCart className="text-2xl" />
                 </button>
               </div>
