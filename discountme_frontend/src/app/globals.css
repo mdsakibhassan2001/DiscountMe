@@ -34,6 +34,8 @@
   --dark: #334A55;
   --light-dark: #58595b;
   --black: #000000;
+  --Primary-Black: #232323;
+  --Primary-White: #F8FAFC;
   --modal-bg: #00000090;
   --modal-radious: 8px;
   --border-color: #e6e6e6;
@@ -44,6 +46,7 @@
   padding: 0;
 }
 body {
+  background: var(--Primary-White);
   font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   -webkit-text-size-adjust: 100%;

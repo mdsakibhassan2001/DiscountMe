@@ -23,7 +23,6 @@ export default function Menu() {
         {/* Search Section */}
         <div className="flex gap-[40px] item-center ">
           <div className="flex rounded-[50px] p-[12px_18px_12px_16px]  font-['Poppins'] border border-[var(--border-color)] gap-2 flex relative items-center">
-
             <input
               type="text"
               placeholder="Search"

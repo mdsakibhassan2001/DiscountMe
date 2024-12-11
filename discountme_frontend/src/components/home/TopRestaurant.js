@@ -2,10 +2,39 @@ import React from 'react'
 import Image from 'next/image'
 import { IoIosStar } from "react-icons/io";
 import { CiLocationOn } from "react-icons/ci";
+import { MdLocationPin } from "react-icons/md";
+import { IoMdArrowDropdown } from "react-icons/io";
+import { CgSearch } from "react-icons/cg";
 import Link from 'next/link';
 export default function TopRestaurant() {
   return (
     <div className="py-10 flex flex-col">
+
+        <div className="grid grid-cols-3">
+            <div className="col-span-2 flex flex-col gap-[40px]">
+                <h2 className="text-[#0c0c0c] text-8xl font-bold font-['Roboto'] leading-[105.60px]">Good <span className="text-[#ff7d29] text-8xl font-bold font-['Roboto'] leading-[105.60px]">food</span>, great memories</h2>
+                <p className="text-[#232323] text-[45px] font-normal font-['DM Sans']">
+                    Enable diners to customize their booking by requesting a specific table location or view. 
+                </p>
+                <div className="flex border w-[755px] rounded-[54px]  border border-[#232323]">
+                    <button className="p-2 m-[3px] flex items-center bg-[var(--primary)] text-white rounded-tl-[30px] rounded-tr rounded-bl-[30px] rounded-br text-slate-50 text-xl font-normal font-['Kumbh Sans'] leading-snug"><MdLocationPin /> <span className="ml-[51px] mr-[8px]">Location</span> <IoMdArrowDropdown /></button>
+                    <input className="p-4 w-full rounded-[54px]  outline-0 bg-[var(--Primary-White)]" type="search"/>
+                    <button className="w-[50px] m-[8px] h-[50px] p-3 bg-[var(--primary)] rounded-[100px]"><CgSearch className="text-white w-[26px] h-[26px]" /></button>
+                    
+                </div>
+            </div>
+            <div className="relative aspect-[1/1]">
+                <Image
+                    alt="discountme"
+                    src="/assets/items/Coffee shop-amico 1.svg" 
+                    fill
+                    className="object-contain"
+                />
+            </div> 
+        </div>
+
+    
+
         <h2 className="text-5xl mb-4 font-[500] text-[var(--gray)">Explore <span className="text-[var(--theme)]">Top Restaurants</span></h2>
         <span className="text-2xl text-[var(--gray)]">Check your city Near by</span>
         <span className="text-2xl text-[var(--gray)]">Restaurant</span>
