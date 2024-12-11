@@ -126,18 +126,20 @@ export default function TopRestaurant() {
           </div>
         </div>
       </div>
-      <div className="flex justify-between">
-        <div>
-          <h2 className="text-5xl mb-4 font-[500] text-[var(--gray)">
+      <div className="md:flex justify-between">
+        <div className="mb-2 md:mb-0">
+          <h2 className="md:text-5xl text-3xl md:mb-4 font-[500] text-[var(--gray)">
             Explore <span className="text-[var(--theme)]">Top Restaurants</span>
           </h2>
-          <span className="text-2xl text-[var(--gray)]">
+          <span className="md:text-2xl text-xl text-[var(--gray)]">
             Check your city Near by
           </span>
-          <span className="text-2xl text-[var(--gray)]">Restaurant</span>
+          <span className="md:text-2xl text-xl text-[var(--gray)]">
+            Restaurant
+          </span>
         </div>
-        <button className="text-[#232323] text-xl font-normal font-['Kumbh Sans'] leading-snug flex items-center gap-[8px]">
-          See All <BsChevronRight className="w-[21px] h-[21px]" />
+        <button className="float-right text-[#232323] md:text-xl text-[16px] font-normal font-['Kumbh Sans'] leading-snug flex items-center gap-[8px]">
+          See All <BsChevronRight className="md:w-[21px] md:h-[21px]" />
         </button>
       </div>
 
