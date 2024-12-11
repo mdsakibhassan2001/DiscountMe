@@ -12,7 +12,7 @@ export default function Items() {
           See all
         </button>
       </div>
-      <div className="py-[63px] gap-[14.21px] grid md:grid-cols-12 grid-cols-3">
+      <div className="py-[63px] gap-[14.21px] grid md:grid-cols-10 xl-grid-cols-12 grid-cols-3">
         <div className="flex flex-col w-[113.71px] h-[113.71px]  bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
           <div className=" w-[44.09px] h-[52.29px] relative">
             <Image className="" fill src="/assets/items/milk.svg" />
