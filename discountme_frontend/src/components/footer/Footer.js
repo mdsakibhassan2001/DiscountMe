@@ -80,10 +80,10 @@ export default function Footer() {
 
             <div className="gap-4 flex flex-col">
               <span className="text-slate-50 text-lg font-normal font-['Figtree'] leading-tight">
-                exclusive@gmail.com
+                sakibhassan719@gmail.com
               </span>
               <span className="text-slate-50 text-lg font-normal font-['Figtree'] leading-tight">
-                +88015888889999
+                +8801991468590
               </span>
             </div>
           </div>
