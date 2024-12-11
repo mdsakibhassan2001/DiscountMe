@@ -11,15 +11,15 @@ export default function TopRestaurant() {
   return (
     <div className="py-10 flex flex-col">
       <div className="grid grid-cols-1 lg:grid-cols-3">
-        <div className="lg:col-span-2 flex flex-col gap-[40px]">
-          <h2 className="text-[#0c0c0c] text-6xl md:text-8xl font-bold font-['Roboto'] md:leading-[105.60px]">
+        <div className="lg:col-span-2 flex flex-col md:gap-[40px] gap-[20px]">
+          <h2 className="text-[#0c0c0c] text-4xl md:text-8xl font-bold font-['Roboto'] md:leading-[105.60px]">
             Good{" "}
-            <span className="text-[#ff7d29] text-6xl md:text-8xl font-bold font-['Roboto'] md:leading-[105.60px]">
+            <span className="text-[#ff7d29] text-4xl md:text-8xl font-bold font-['Roboto'] md:leading-[105.60px]">
               food
             </span>
             , great memories
           </h2>
-          <p className="text-[#232323] md:text-[45px] text-[30px] font-normal font-['DM Sans']">
+          <p className="text-[#232323] md:text-[45px] text-[25px] font-normal font-['DM Sans']">
             Enable diners to customize their booking by requesting a specific
             table location or view.
           </p>
@@ -49,7 +49,7 @@ export default function TopRestaurant() {
           />
         </div>
       </div>
-      <div className="py-4 m-[60px] px-[61.19px] py-[43.71px]  max-w-[1153.86px] bg-[var(--white)] mx-auto grid grid-cols-4 gap-3 rounded-[10.49px]">
+      <div className="py-4 m-[60px] md:px-[61.19px] px-[10px] md:py-[43.71px] py-[10px]  md:max-w-[1153.86px] w-[100%] bg-[var(--white)] mx-auto grid md:grid-cols-4 grid-cols-2 gap-3 rounded-[10.49px]">
         <div className="flex gap-[13.986px]">
           <div className="relative w-[40px] h-[40px]">
             <Image
