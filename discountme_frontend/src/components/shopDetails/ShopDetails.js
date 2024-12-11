@@ -50,7 +50,7 @@ export default function ShopDetails() {
       <h2 className="md:text-[40px] text-center md:text-start text-[24px] mb-10 py-4 font-[500] border-b border-b-[var(--gray)]">
         <span className="text-[var(--primary)]">Villagio</span> Restaurant & Bar
       </h2>
-      <div className="grid md:grid-cols-2">
+      <div className="grid md:grid-cols-2 gap-2">
         <div className="flex flex-col md:gap-[20px] gap-[10px]">
           <div className="flex items-center mg:gap-[18.11px] gap-[10px]">
             <MdLocationPin className="text-[var(--primary)] md:w-[36.23px] w-[25px] h-[25px] md:h-[36.23px]" />
@@ -74,10 +74,10 @@ export default function ShopDetails() {
         </div>
         <div className="flex gap-5 items-start">
           <div className="mt-2">
-            <FaBars className="w-[30.19px] h-[30.19px] text-[var(--primary)]" />
+            <FaBars className="md:w-[30.19px] w-[24px] h-[24px] md:h-[30.19px] text-[var(--primary)]" />
           </div>
 
-          <p className="text-[var(--dark)] text-xl text-justify">
+          <p className="text-[var(--dark)] md:text-xl text-[14px] text-justify">
             Villagio restaurant and bar has one mission: to provide guests with
             a fine and fresh seafood experience. Featuring seasonal and
             sustainable seafood that is flown in fresh daily, our chef-driven

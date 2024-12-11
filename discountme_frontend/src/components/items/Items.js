@@ -5,102 +5,111 @@ export default function Items() {
   return (
     <div className="pt-20 pb-8">
       <div className="flex justify-between items-center">
-        <h2 className="text-[var(--text-color)] text-5xl font-bold font-['Urbanist']">
+        <h2 className="text-[var(--text-color)] md:text-5xl text-3xl font-bold font-['Urbanist']">
           Items🔥
         </h2>
-        <button className="bg-[#d9f3e3]  px-[33.94px] py-[8.55px] rounded-[72.73px]  gap-[24.24px] text-[var(--primary)] text-[29.09px] font-normal font-['Urbanist'] tracking-wide">
+        <button className="bg-[#d9f3e3]  px-[33.94px] py-[8.55px] rounded-[72.73px]  gap-[24.24px] text-[var(--primary)] md:text-[29.09px] text-[20px] font-normal font-['Urbanist'] tracking-wide">
           See all
         </button>
       </div>
-      <div className="py-[63px] gap-[14.21px] grid grid-cols-12">
-         <div className="flex flex-col w-[113.71px] h-[113.71px]  bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
+      <div className="py-[63px] gap-[14.21px] grid md:grid-cols-12 grid-cols-3">
+        <div className="flex flex-col w-[113.71px] h-[113.71px]  bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
           <div className=" w-[44.09px] h-[52.29px] relative">
-            <Image className="" fill src="/assets/items/milk.svg"/>
+            <Image className="" fill src="/assets/items/milk.svg" />
           </div>
-          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">Milk</div>
-         
-         </div>
-         <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
+          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">
+            Milk
+          </div>
+        </div>
+        <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
           <div className=" w-[44.09px] h-[52.29px] relative">
-            <Image className="" fill src="/assets/items/milk.svg"/>
+            <Image className="" fill src="/assets/items/milk.svg" />
           </div>
-          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">Milk</div>
-         
-         </div>
-     
-         <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
-          <div className=" w-[44.09px] h-[52.29px] relative">
-            <Image className="" fill src="/assets/items/milk.svg"/>
+          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">
+            Milk
           </div>
-          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">Milk</div>
-         
-         </div>
-         <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
-          <div className=" w-[44.09px] h-[52.29px] relative">
-            <Image className="" fill src="/assets/items/milk.svg"/>
-          </div>
-          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">Milk</div>
-         
-         </div>
-         <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
-          <div className=" w-[44.09px] h-[52.29px] relative">
-            <Image className="" fill src="/assets/items/milk.svg"/>
-          </div>
-          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">Milk</div>
-         
-         </div>
-         <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
-          <div className=" w-[44.09px] h-[52.29px] relative">
-            <Image className="" fill src="/assets/items/milk.svg"/>
-          </div>
-          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">Milk</div>
-         
-         </div>
-         <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
-          <div className=" w-[44.09px] h-[52.29px] relative">
-            <Image className="" fill src="/assets/items/milk.svg"/>
-          </div>
-          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">Milk</div>
-         
-         </div>
-         <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
-          <div className=" w-[44.09px] h-[52.29px] relative">
-            <Image className="" fill src="/assets/items/milk.svg"/>
-          </div>
-          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">Milk</div>
-         
-         </div>
-         <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
-          <div className=" w-[44.09px] h-[52.29px] relative">
-            <Image className="" fill src="/assets/items/milk.svg"/>
-          </div>
-          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">Milk</div>
-         
-         </div>
-         <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
-          <div className=" w-[44.09px] h-[52.29px] relative">
-            <Image className="" fill src="/assets/items/milk.svg"/>
-          </div>
-          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">Milk</div>
-         
-         </div>
-         <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
-          <div className=" w-[44.09px] h-[52.29px] relative">
-            <Image className="" fill src="/assets/items/milk.svg"/>
-          </div>
-          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">Milk</div>
-         
-         </div>
-         <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
-          <div className=" w-[44.09px] h-[52.29px] relative">
-            <Image className="" fill src="/assets/items/milk.svg"/>
-          </div>
-          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">Milk</div>
-         
-         </div>
-         
+        </div>
 
-
+        <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
+          <div className=" w-[44.09px] h-[52.29px] relative">
+            <Image className="" fill src="/assets/items/milk.svg" />
+          </div>
+          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">
+            Milk
+          </div>
+        </div>
+        <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
+          <div className=" w-[44.09px] h-[52.29px] relative">
+            <Image className="" fill src="/assets/items/milk.svg" />
+          </div>
+          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">
+            Milk
+          </div>
+        </div>
+        <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
+          <div className=" w-[44.09px] h-[52.29px] relative">
+            <Image className="" fill src="/assets/items/milk.svg" />
+          </div>
+          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">
+            Milk
+          </div>
+        </div>
+        <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
+          <div className=" w-[44.09px] h-[52.29px] relative">
+            <Image className="" fill src="/assets/items/milk.svg" />
+          </div>
+          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">
+            Milk
+          </div>
+        </div>
+        <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
+          <div className=" w-[44.09px] h-[52.29px] relative">
+            <Image className="" fill src="/assets/items/milk.svg" />
+          </div>
+          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">
+            Milk
+          </div>
+        </div>
+        <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
+          <div className=" w-[44.09px] h-[52.29px] relative">
+            <Image className="" fill src="/assets/items/milk.svg" />
+          </div>
+          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">
+            Milk
+          </div>
+        </div>
+        <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
+          <div className=" w-[44.09px] h-[52.29px] relative">
+            <Image className="" fill src="/assets/items/milk.svg" />
+          </div>
+          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">
+            Milk
+          </div>
+        </div>
+        <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
+          <div className=" w-[44.09px] h-[52.29px] relative">
+            <Image className="" fill src="/assets/items/milk.svg" />
+          </div>
+          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">
+            Milk
+          </div>
+        </div>
+        <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
+          <div className=" w-[44.09px] h-[52.29px] relative">
+            <Image className="" fill src="/assets/items/milk.svg" />
+          </div>
+          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">
+            Milk
+          </div>
+        </div>
+        <div className="flex flex-col w-[113.71px] h-[113.71px] bg-[#fcfcfc] rounded-[14.21px] shadow justify-center items-center">
+          <div className=" w-[44.09px] h-[52.29px] relative">
+            <Image className="" fill src="/assets/items/milk.svg" />
+          </div>
+          <div className="w-[44.09px] text-[#1d242d] text-lg font-semibold font-['Urbanist'] tracking-tight">
+            Milk
+          </div>
+        </div>
       </div>
       <div className="grid grid-cols-3 py-4 gap-[21.19px] ">
         <Link href="categorie" className="shadow-custom rounded-[14.54px]">
