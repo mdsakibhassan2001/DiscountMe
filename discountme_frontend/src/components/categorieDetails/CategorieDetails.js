@@ -17,7 +17,7 @@ export default function CategorieDetails() {
           alt="login"
           className="h-full w-full"
           fill
-          src="/assets/categorieslider/categoryslider.png "
+          src="/assets/categorieslider/categoryslider.png"
         />
       </div>
       <div className="max-w-[1512px] w-[90%] mx-auto py-8 ">
@@ -33,7 +33,7 @@ export default function CategorieDetails() {
                     alt="login"
                     className="rounded-[4px] h-full w-full"
                     fill
-                    src="/assets/categoriesmall/categoriesmallimage.png "
+                    src="/assets/customar/customar1.png"
                   />
                 </div>
                 <div className="relative aspect-[93/104]">
@@ -41,7 +41,7 @@ export default function CategorieDetails() {
                     alt="login"
                     className="rounded-[4px] h-full w-full"
                     fill
-                    src="/assets/categoriesmall/categoriesmallimage.png "
+                    src="/assets/categoriesmall/categoriesmallimage.png"
                   />
                 </div>
                 <div className="relative aspect-[93/104]">
@@ -49,7 +49,7 @@ export default function CategorieDetails() {
                     alt="login"
                     className="rounded-[4px] h-full w-full"
                     fill
-                    src="/assets/categoriesmall/categoriesmallimage.png "
+                    src="/assets/categoriesmall/categoriesmallimage.png"
                   />
                 </div>
               </div>
@@ -63,7 +63,7 @@ export default function CategorieDetails() {
                 alt="login"
                 className="h-full w-full"
                 fill
-                src="/assets/details_image/details_img.png "
+                src="/assets/details_image/details_img.png"
               />
             </div>
           </div>
