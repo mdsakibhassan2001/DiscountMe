@@ -33,7 +33,7 @@ export default function CategorieDetails() {
                     alt="login"
                     className="rounded-[4px] h-full w-full"
                     fill
-                    src="/assets/customar/customar1.png"
+                    src="/assets/categoriesmall/categoriesmallimage.png"
                   />
                 </div>
                 <div className="relative aspect-[93/104]">
