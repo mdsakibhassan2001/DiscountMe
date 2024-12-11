@@ -5,7 +5,6 @@ import Image from "next/image";
 import { IoMdStar } from "react-icons/io";
 import { FaBars } from "react-icons/fa6";
 import { MdLocationPin } from "react-icons/md";
-import angle from "../../../public//assets/shop_slider/Rectangle.png"
 import Items from "../items/Items";
 import Link from "next/link";
 export default function ShopDetails() {
@@ -42,7 +41,7 @@ export default function ShopDetails() {
           <Image
             className="p-[12px] pb-[16px]"
             alt="slider"
-            src={angle}
+            src="assets/shop_slider/Rectangle.png"
             fill
             priority
           /> 
