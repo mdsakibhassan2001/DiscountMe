@@ -26,13 +26,13 @@ export default function TopRestaurant() {
           <div className="flex border w-[100%] md:w-[755px] rounded-[54px]  border border-[#232323]">
             <button className="p-2 m-[3px] flex items-center bg-[var(--primary)] text-white rounded-tl-[30px] rounded-tr rounded-bl-[30px] rounded-br text-slate-50 text-xl font-normal font-['Kumbh Sans'] leading-snug">
               <MdLocationPin />{" "}
-              <span className="md:ml-[51px] ml-[5px] md:mr-[8px] mr-[4px]">
+              <span className="md:ml-[51px] text-[14px] md:text-2xl ml-[5px] md:mr-[8px] mr-[4px]">
                 Location
               </span>{" "}
               <IoMdArrowDropdown />
             </button>
             <input
-              className="p-4 w-full rounded-[54px]  outline-0 bg-[var(--Primary-White)]"
+              className="md:p-4 p-2 w-full rounded-[54px]  outline-0 bg-[var(--Primary-White)]"
               type="search"
             />
             <button className="w-[50px] m-[8px] h-[50px] p-3 bg-[var(--primary)] rounded-[100px]">
@@ -143,7 +143,7 @@ export default function TopRestaurant() {
         </button>
       </div>
 
-      <div className="grid grid-cols-3 gap-[40px] mt-10">
+      <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-[40px] mt-10">
         <div className="rounded-3xl shadow border border-[#959697] p-3 ">
           <div className="relative aspect-[433/308]">
             <Image alt="product" fill src="/assets/restaurant/Rectangle2.png" />
@@ -151,11 +151,11 @@ export default function TopRestaurant() {
           <div>
             <div className="mt-2 flex flex-col gap-4">
               <div className="flex justify-between">
-                <h3 className="text-[var(--dark)] text-[32px] font-medium font-['Roboto'] leading-9">
+                <h3 className="text-[var(--dark)] md:text-[32px] text-[24px] text-[24px] font-medium font-['Roboto'] leading-9">
                   Trattoria dal'Oste
                 </h3>
                 <div className="flex items-center gap-2">
-                  <IoIosStar className="w-[33px] h-[33px] text-[#FFC60B]" />
+                  <IoIosStar className="md:w-[33px] md:h-[33px] w-[24px] h-[24px] text-[#FFC60B]" />
                   <span className="text-[var(--dark)] text-2xl font-medium font-['Kumbh Sans'] leading-relaxed">
                     (4.5)
                   </span>
@@ -190,11 +190,11 @@ export default function TopRestaurant() {
           <div>
             <div className="mt-2 flex flex-col gap-4">
               <div className="flex justify-between">
-                <h3 className="text-[var(--dark)] text-[32px] font-medium font-['Roboto'] leading-9">
+                <h3 className="text-[var(--dark)] md:text-[32px] text-[24px] font-medium font-['Roboto'] leading-9">
                   Trattoria dal'Oste
                 </h3>
                 <div className="flex items-center gap-2">
-                  <IoIosStar className="w-[33px] h-[33px] text-[#FFC60B]" />
+                  <IoIosStar className="md:w-[33px] md:h-[33px] w-[24px] h-[24px] text-[#FFC60B]" />
                   <span className="text-[var(--dark)] text-2xl font-medium font-['Kumbh Sans'] leading-relaxed">
                     (4.5)
                   </span>
@@ -229,11 +229,11 @@ export default function TopRestaurant() {
           <div>
             <div className="mt-2 flex flex-col gap-4">
               <div className="flex justify-between">
-                <h3 className="text-[var(--dark)] text-[32px] font-medium font-['Roboto'] leading-9">
+                <h3 className="text-[var(--dark)] md:text-[32px] text-[24px] font-medium font-['Roboto'] leading-9">
                   Trattoria dal'Oste
                 </h3>
                 <div className="flex items-center gap-2">
-                  <IoIosStar className="w-[33px] h-[33px] text-[#FFC60B]" />
+                  <IoIosStar className="md:w-[33px] md:h-[33px] w-[24px] h-[24px] text-[#FFC60B]" />
                   <span className="text-[var(--dark)] text-2xl font-medium font-['Kumbh Sans'] leading-relaxed">
                     (4.5)
                   </span>
