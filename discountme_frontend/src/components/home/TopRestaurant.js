@@ -12,9 +12,9 @@ export default function TopRestaurant() {
     <div className="py-10 flex flex-col">
       <div className="grid grid-cols-1 lg:grid-cols-3">
         <div className="lg:col-span-2 flex flex-col gap-[40px]">
-          <h2 className="text-[#0c0c0c] text-6xl md:text-8xl font-bold font-['Roboto'] leading-[105.60px]">
+          <h2 className="text-[#0c0c0c] text-6xl md:text-8xl font-bold font-['Roboto'] md:leading-[105.60px]">
             Good{" "}
-            <span className="text-[#ff7d29] text-6xl md:text-8xl font-bold font-['Roboto'] leading-[105.60px]">
+            <span className="text-[#ff7d29] text-6xl md:text-8xl font-bold font-['Roboto'] md:leading-[105.60px]">
               food
             </span>
             , great memories
@@ -26,7 +26,9 @@ export default function TopRestaurant() {
           <div className="flex border w-[100%] md:w-[755px] rounded-[54px]  border border-[#232323]">
             <button className="p-2 m-[3px] flex items-center bg-[var(--primary)] text-white rounded-tl-[30px] rounded-tr rounded-bl-[30px] rounded-br text-slate-50 text-xl font-normal font-['Kumbh Sans'] leading-snug">
               <MdLocationPin />{" "}
-              <span className="ml-[51px] mr-[8px]">Location</span>{" "}
+              <span className="md:ml-[51px] ml-[5px] md:mr-[8px] mr-[4px]">
+                Location
+              </span>{" "}
               <IoMdArrowDropdown />
             </button>
             <input
