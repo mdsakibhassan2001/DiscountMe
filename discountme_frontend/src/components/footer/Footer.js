@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <div className="bg-[var(--Primary-Black)] py-8">
-      <div className="max-w-[1512px] w-[90%] mx-auto grid md:grid-cols-4 sm:grid-cols-2 ">
-        <div className="flex items-center flex-col md:gap-[26.39px] gap-[20.39px] md:p-[63.34px]">
+      <div className="max-w-[1512px] gap-[40px] w-[90%] mx-auto grid md:grid-cols-4 sm:grid-cols-2 ">
+        <div className="flex items-center md:items-start flex-col md:gap-[26.39px] gap-[20.39px] ">
           <Link href="/" className="relative w-[234px] h-[61px]">
             <Image
               alt="discountme"
@@ -29,7 +29,7 @@ export default function Footer() {
             </button>
           </div>
         </div>
-        <div className="md:col-span-2 md:p-[63.34px] p-[10px] pt-[20px] grid md:grid-cols-3 grid-cols-2 gap-[20px] md:gap-[40px] xl:gap-[112px] ">
+        <div className="md:col-span-2  p-[10px] pt-[20px] grid md:grid-cols-3 grid-cols-2 gap-[20px]  ">
           <div className="flex flex-col gap-6 ">
             <h3 className="text-slate-50 text-xl font-bold font-['Figtree'] leading-snug">
               Account
@@ -83,12 +83,12 @@ export default function Footer() {
                 exclusive@gmail.com
               </span>
               <span className="text-slate-50 text-lg font-normal font-['Figtree'] leading-tight">
-                +88015-88888-9999
+                +88015888889999
               </span>
             </div>
           </div>
         </div>
-        <div className="p-[63.34px] pr-[0px] flex flex-col gap-6 ">
+        <div className=" pr-[0px] flex flex-col gap-6 ">
           <h3 className="text-slate-50 text-xl font-bold font-['Figtree'] leading-snug">
             Download App
           </h3>
