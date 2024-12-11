@@ -6,11 +6,14 @@ import { FiShoppingCart } from "react-icons/fi";
 import { RiUserLine } from "react-icons/ri";
 import { FiSearch } from "react-icons/fi";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import { FaBarsStaggered } from "react-icons/fa6";
 export default function Menu() {
   return (
     <div className="lg:py-[35px] py-[20px] border-b border-b-[var(--border-color)]">
       <div className="max-w-[1512px] w-[90%] mx-auto flex justify-between items-center ">
-        {/* Logo Section */}
+        <button className="xl:hidden flex">
+          <FaBarsStaggered className="text-2xl text-[var(--dark)]" />
+        </button>
         <Link
           href="/"
           className="relative aspect-[274/71] w-[150px] lg:w-[274px]"
@@ -46,7 +49,8 @@ export default function Menu() {
               href="/"
             >
               All Category
-            </Link>{" "}
+            </Link>
+            {""}
             <MdKeyboardArrowDown className="text-[var(--text-color)] text-3xl " />
           </li>
           <li className="list-none flex items-center gap-[8px]">
