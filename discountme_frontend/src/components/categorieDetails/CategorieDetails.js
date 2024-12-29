@@ -23,7 +23,7 @@ export default function CategorieDetails() {
       <div className="max-w-[1512px] w-[90%] mx-auto py-8 ">
         <div className="grid lg:grid-cols-2 lg:gap-[28px]">
           <div className="lg:grid lg:grid-cols-7 ">
-            <div className=" flex lg:flex-col justify-between  h-auto mr-4 lg:gap-[32px]">
+            <div className="rotate-360 flex lg:flex-col justify-between  h-auto mr-4 lg:gap-[32px]">
               <button className="flex items-center justify-center text-xl text-[var(--gray)] ">
                 <SlArrowUp />
               </button>
